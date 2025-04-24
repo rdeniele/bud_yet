@@ -1,3 +1,33 @@
+/* Apply base styles */
 @tailwind base;
+
+/* Base styles, including fonts */
+@layer base {
+    html {
+        /* HTML base styles */
+    }
+    body {
+    }
+    /* Specific override for bold elements */
+    .sk-bold {
+        font-family: "SkModernistBold", sans-serif;
+    }
+    .sk {
+        font-family: "SkModernist", sans-serif;
+    }
+    .hide-calendar-icon::-webkit-calendar-picker-indicator {
+        filter: invert(65%);
+        width: 18px;
+        height: 18px;
+    }
+    .hs-dropdown-menu[data-hs-dropdown-placement="right-end"] {
+        top: 100%;
+        right: 0;
+    }
+}
+
+/* Apply component styles */
 @tailwind components;
+
+/* Apply utility styles */
 @tailwind utilities;

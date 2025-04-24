@@ -3,31 +3,24 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "tsc && vite build"
+        "build": "vite build"
     },
     "devDependencies": {
-        "@headlessui/react": "^2.0.0",
-        "@inertiajs/react": "^1.0.0",
-        "@tailwindcss/forms": "^0.5.3",
-        "@types/node": "^18.13.0",
-        "@types/react": "^18.0.28",
-        "@types/react-dom": "^18.0.10",
-        "@vitejs/plugin-react": "^4.2.0",
+        "@tailwindcss/forms": "^0.5.7",
         "autoprefixer": "^10.4.19",
         "axios": "^1.6.4",
-        "laravel-vite-plugin": "^1.0",
+        "laravel-vite-plugin": "^1.0.4",
         "postcss": "^8.4.38",
-        "react": "^18.2.0",
-        "react-dom": "^18.2.0",
         "tailwindcss": "^3.4.4",
-        "typescript": "^5.0.2",
-        "vite": "^5.0"
+        "vite": "^5.3.1"
     },
     "dependencies": {
-        "class-variance-authority": "^0.7.0",
-        "clsx": "^2.1.1",
-        "lucide-react": "^0.396.0",
-        "tailwind-merge": "^2.3.0",
-        "tailwindcss-animate": "^1.0.7"
+        "@midudev/tailwind-animations": "^0.0.7",
+        "@preline/carousel": "^2.3.0",
+        "@preline/overlay": "^2.3.0",
+        "apexcharts": "^3.49.2",
+        "gotham-fonts": "^1.0.3",
+        "lodash": "^4.17.21",
+        "preline": "^2.3.0"
     }
 }
